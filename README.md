@@ -36,7 +36,7 @@ server.close()
 
 ### Client Example
 ```js
-onst Client = require('../index').Client
+const Client = require('../index').Client
 
 let client = new Client({server: 'localhost', port: 30210, type: 'udp4'})
 
